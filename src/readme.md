@@ -23,10 +23,8 @@ For each continent:
 - Save as continent-specific Delta table
 
 Key code snippets
-```python
-
 Station definition (example – Africa):
-
+```python
 africa_stations = {
     "Africa": {
         "Sudafrica": [
