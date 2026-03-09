@@ -1,6 +1,6 @@
 ## Global Weather Analysis Project
 
-This project explores global weather patterns using NOAA's Global Surface Summary of the Day (GSOD) dataset, processed entirely on **Databricks Community Edition** (free tier). It demonstrates a complete ETL and analytical workflow for handling historical weather data (2000–2024), focusing on temperature trends, precipitation extremes, and variability across continents, countries, and cities.
+This project explores global weather patterns using NOAA's Global Surface Summary of the Day (GSOD) dataset, processed entirely on **Databricks Free Edition**. It demonstrates a complete ETL and analytical workflow for handling historical weather data (2000–2024), focusing on temperature trends, precipitation extremes, and variability across continents, countries, and cities.
 
 ### Data Ingestion from NOAA on Amazon S3
 
