@@ -52,17 +52,22 @@ These metrics form the basis for all downstream insights.
 
 Final analysis and plots were created by converting Spark results to Pandas DataFrames and using **Seaborn** + **Matplotlib** for publication-quality charts.  
 Every plot avaiable [Here](results/img)
-Key visualizations include:
+Key visualizations include: 
+
+- **Top 6 Continents by Average Temperature in 2024** 
+  ![Top 6 Continenti per Temperatura Media 2024](C.%20temp%20media%20x%20continente%202024.png)
+  
+- **Heatmap of average days with >10 mm rain** per continent and year  
+  ![Heatmap: Giorni medi >10mm per Continente e Anno](results/img/C.%20giorni%20di%20pioggia%2010mm%20continente%20x%20anno.png)-
 
 - **Trend of annual mean temperature per continent** (2014–2024)  
   ![Trend Temperatura Media Annuale per Continente 2014–2024](results/img/C.%20trend%20temperatura%20annuale%20continente%2014-24.png)
 
-- **Heatmap of average days with >10 mm rain** per continent and year  
-  ![Heatmap: Giorni medi >10mm per Continente e Anno](results/img/C.%20giorni%20di%20pioggia%2010mm%20continente%20x%20anno.png)
+- **Temperature Variability (Standard Deviation) per Continent and Year (2014–2024)**  
+![Heatmap Variabilità Temperatura per Continente e Anno](C.%20heatmap%20variabilità%20temperatura%20continente%2014-24.png)
 
-- **Top 10 hottest cities in 2024**  
-  ![Top 10 Città Più Calde 2024](results/img/top10%20città%20più%20calde%202024.png)
-
+- **Average Diurnal Temperature Range (Tmax – Tmin) per Country – Last 5 Years**  
+  ![Escursione Termica Media per Paese – Ultimi 5 Anni](P.%20escursione%20termica%20per%20paese%20last5y.png)
 
 The visualizations reveal strong tropical influence on highest temperatures, elevated heavy-rain days in Europe and parts of South America/Asia, greater variability in Asia and North America, and a general pattern of stable-to-slightly-warming continental averages over the decade.
 
